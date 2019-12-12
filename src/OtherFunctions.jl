@@ -9,7 +9,7 @@ export LaguerrePoly, HermitePoly, CInceCoef, SInceCoef, CInce, SInce
     LaguerrePoly(n,k,x)
 
 Compute the Associated Laguerre Polynomial """
-function LaguerrePoly(n::Int64,k::Int64,x::Float64)
+function LaguerrePoly(n,k,x::Float64)
     term1=1/factorial(n)
     L=0
     for ii=0:n
